@@ -8,7 +8,7 @@ const Contact = () => {
     <section id="contact">
       <Container>
         <Title title="Contact" />
-        <Fade bottom duration={1000} delay={800} distance="30px">
+        <Fade bottom duration={1000} delay={400} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">Would you like to work with me? Awesome!</p>
             <form name="contact" method="POST" data-netlify="true">
@@ -29,7 +29,6 @@ const Contact = () => {
               </p>
               <button
                 type="submit"
-                rel="noopener noreferrer"
                 style={{ background: 'transparent', fontSize: '1.5rem' }}
                 className="cta-btn cta-btn--resume"
               >

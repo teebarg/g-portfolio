@@ -28,13 +28,7 @@ const Testimony = () => {
           <Title title="TESTIMONIALS" />
           <Row>
             <Col sm={12}>
-              <Fade
-                right={isDesktop}
-                bottom={isMobile}
-                duration={1000}
-                delay={1000}
-                distance="30px"
-              >
+              <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
                 <div className="testimony-container">
                   {testimonies.map((testimony) => (
                     <div className="testimony">

@@ -125,6 +125,16 @@ export const stackData = [
   },
   {
     id: nanoid(),
+    name: 'typescript',
+    img: 'typescript.png',
+  },
+  {
+    id: nanoid(),
+    name: 'heroku',
+    img: 'heroku.png',
+  },
+  {
+    id: nanoid(),
     name: 'Docker',
     img: 'docker.png',
   },
@@ -135,7 +145,7 @@ export const skillsData = [
   {
     id: nanoid(),
     img: 'school.jpg',
-    time: '2015 - 2017',
+    time: '2015 - 2017 | Kwara State University',
     title: 'School',
     role: 'Bachelor of Science',
     desc: `I graduated with a master of science in computer science.
@@ -144,33 +154,32 @@ export const skillsData = [
   },
   {
     id: nanoid(),
-    img: 'flicks.jpg',
-    time: '2016 - 2018',
+    img: 'office1.jpg',
+    time: '2016 - 2018 | Flicks Technologies',
     title: 'flicks',
     role: 'Fullstack Developer',
-    desc: `I graduated with a master of science in computer science.
-     Lots of this knowledge can be applied for more complex problems
-     in client-server architectures.`,
+    desc: `Developing front end website architecture. Designing user interactions on web pages`,
   },
   {
     id: nanoid(),
-    img: 'supermart.jpg',
-    time: '2018 - 2019',
+    img: 'office2.jpg',
+    time: '2018 - 2019 | Supermart NG',
     title: 'supermart',
     role: 'Software Engineer',
-    desc: `I graduated with a master of science in computer science.
-     Lots of this knowledge can be applied for more complex problems
-     in client-server architectures.`,
+    desc: `Developing back end website applications.
+        Ensuring cross-platform optimization for mobile phones,
+      Ensuring responsiveness of applications`,
   },
   {
     id: nanoid(),
-    img: 'altara.jpg',
-    time: '2020 - To Date',
+    img: 'office3.jpg',
+    time: '2020 - To Date | Altara Credit',
     title: 'altara',
     role: 'Senior Software Engineer',
-    desc: `I graduated with a master of science in computer science.
-     Lots of this knowledge can be applied for more complex problems
-     in client-server architectures.`,
+    desc: `Designing and developing APIs, 
+    Staying abreast of developments in web applications and programming languages.
+    Ensure software is up-to-date with latest technologies.
+     Ensure software is up-to-date with latest technologies`,
   },
 ];
 

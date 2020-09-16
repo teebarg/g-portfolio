@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
+import IconImg from '../Image/IconImg';
 import PortfolioContext from '../../context/context';
 
 const About = () => {
@@ -28,22 +29,22 @@ const About = () => {
         <Title title="About Me" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
-            <Fade bottom duration={1000} delay={600} distance="30px">
+            <Fade bottom duration={1000} delay={200} distance="30px">
               <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
                 <div style={{ marginTop: 10 }} className="about-wrapper__image-contact">
-                  <img src="/phone.svg" alt="Phone" />
+                  <IconImg alt="Phone" slug="phone.png" />
                   <p>08067295227</p>
                 </div>
                 <div style={{ marginTop: 10 }} className="about-wrapper__image-contact">
-                  <img src="/email.svg" alt="Mail" />
+                  <IconImg alt="Mail" slug="mail.png" />
                   <p>neyostica2000@yahoo.com</p>
                 </div>
               </div>
             </Fade>
           </Col>
           <Col md={6} sm={12}>
-            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">{paragraphOne}</p>
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>

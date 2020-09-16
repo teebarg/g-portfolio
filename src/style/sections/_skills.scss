@@ -44,6 +44,10 @@
     margin-left: -60px;
   }
 
+  .skill-item .img-container .gatsby-image-wrapper {
+    height: 100%;
+  }
+
   .skill-item .img-container:not(.last) {
     border-radius: 50%;
     overflow: hidden;

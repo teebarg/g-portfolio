@@ -28,13 +28,7 @@ const Stack = () => {
           <Title title="MY STACKS" />
           <Row>
             <Col sm={12}>
-              <Fade
-                right={isDesktop}
-                bottom={isMobile}
-                duration={1000}
-                delay={1000}
-                distance="30px"
-              >
+              <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
                 <div className="stack-wrapper__image">
                   {stacks.map((stack) => {
                     const { name, img, id } = stack;

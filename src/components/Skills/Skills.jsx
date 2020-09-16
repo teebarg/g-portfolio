@@ -28,13 +28,7 @@ const Skills = () => {
           <Title title="MY PROFESSIONAL STORY" />
           <Row>
             <Col sm={12}>
-              <Fade
-                right={isDesktop}
-                bottom={isMobile}
-                duration={1000}
-                delay={1000}
-                distance="30px"
-              >
+              <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
                 <div className="project-wrapper__image">
                   <ul aria-label="Project Link" className="skill">
                     {skills.map((skill) => {
