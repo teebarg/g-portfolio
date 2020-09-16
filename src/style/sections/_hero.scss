@@ -7,7 +7,7 @@
   background: $white-color;
   font-weight: 400;
   color: $dark-blue-text;
-  padding: 0rem 5.6rem;
+  padding: 0;
   margin-bottom: 0;
   top: 0;
   left: 0;
@@ -62,4 +62,15 @@
       }
     }
   }
+}
+
+#hero::before {
+  content: '';
+  background-image: url('/hero.jpg');
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

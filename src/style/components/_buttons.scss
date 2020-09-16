@@ -70,7 +70,7 @@
   }
 
   &:hover {
-    color: $secondary-color;
+    color: $secondary-color !important;
     text-decoration: none;
 
     &::after {
