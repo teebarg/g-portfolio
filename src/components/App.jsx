@@ -10,7 +10,6 @@ import Footer from './Footer/Footer';
 import { PortfolioProvider } from '../context/context';
 
 import {
-  heroData,
   aboutData,
   projectsData,
   stackData,
@@ -21,7 +20,6 @@ import {
 import Testimony from './Testimony/Testimony';
 
 function App() {
-  const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
   const [stacks, setStacks] = useState([]);
@@ -30,7 +28,6 @@ function App() {
   const [footer, setFooter] = useState({});
 
   useEffect(() => {
-    setHero({ ...heroData });
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
     setStacks([...stackData]);
@@ -40,7 +37,7 @@ function App() {
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, projects, stacks, skills, testimonies, footer }}>
+    <PortfolioProvider value={{ about, projects, stacks, skills, testimonies, footer }}>
       <Hero />
       <About />
       <Skills />

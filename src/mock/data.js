@@ -7,14 +7,6 @@ export const headData = {
   description: `This a Adeniyi Aderounmu Portfolio, i'm a software developer`,
 };
 
-// HERO DATA
-export const heroData = {
-  title: 'Hi, my name is',
-  name: 'Adeniyi Aderounmu',
-  subtitle: 'Im a Software Engineer',
-  cta: '',
-};
-
 // ABOUT DATA
 export const aboutData = {
   img: 'niyi.jpg',

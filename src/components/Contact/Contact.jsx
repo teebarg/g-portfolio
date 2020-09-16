@@ -27,7 +27,12 @@ const Contact = () => {
                   Message: <textarea name="message" className="form-ctl" />
                 </label>
               </p>
-              <button type="submit" rel="noopener noreferrer" className="cta-btn cta-btn--resume">
+              <button
+                type="submit"
+                rel="noopener noreferrer"
+                style={{ background: 'transparent', fontSize: '1.5rem' }}
+                className="cta-btn cta-btn--resume"
+              >
                 Submit
               </button>
             </form>
