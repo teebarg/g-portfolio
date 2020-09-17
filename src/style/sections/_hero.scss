@@ -14,12 +14,14 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  background-image: url('https://altara-staging.s3.amazonaws.com/game/heroo.jpg');
+  // background-repeat: no-repeat;
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
   // background: url("/src/assets/hero.jpg");
   // background-position: center;
-  // background-size: cover;
+  background-size: cover;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -62,15 +64,4 @@
       }
     }
   }
-}
-
-#hero::before {
-  content: '';
-  background-image: url('https://altara-staging.s3.amazonaws.com/game/heroo.jpg');
-  // opacity: 0.7;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
 }

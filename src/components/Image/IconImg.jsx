@@ -20,9 +20,7 @@ const IconImg = ({ slug, alt }) => (
       }
     `}
     render={(data) => {
-      console.log(data);
       const image = data.allImageSharp.edges.find((edge) => edge.node.fixed.originalName === slug);
-      console.log(image);
       if (!image) {
         return null;
       }
