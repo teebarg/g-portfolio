@@ -36,9 +36,18 @@ export const projectsData = [
     title: 'Cynactics',
     info:
       'This is a laravel Nuxtjs app that allows users get Predictions of Sport Games. Cynatics is an Online Sport Betting prediction site which use Artificial learning to predict Game outcomes based on team history',
-    info2: 'I used nuxtjs for the frontend and Laravel for the Backedn',
+    info2: 'I used nuxtjs for the frontend and Laravel for the Backend',
     url: 'https://www.gamelab.tk',
     repo: 'https://github.com/teebarg/cynatics_vue', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'blog.PNG',
+    title: 'Adeniyi Blog',
+    info: 'This is my personal Blogging site where i write tutorials to help Developers',
+    info2: 'I used Gatsby for the frontend and Wordpress for the Backend',
+    url: 'https://adeniyi-blog.tk/',
+    repo: 'https://github.com/teebarg/adeniyi-blog', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
