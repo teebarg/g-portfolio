@@ -51,6 +51,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: '1access.PNG',
+    title: '1 Access',
+    info: 'This is my personal Access Management App',
+    info2: 'I used React for the frontend and Netlify Lambda Function for the Backend',
+    url: 'https://1access.tk/',
+    repo: 'https://github.com/teebarg/access-manager', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'healthplus.jpg',
     title: 'HealthPlus',
     info:
