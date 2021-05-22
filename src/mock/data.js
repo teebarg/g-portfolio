@@ -16,11 +16,20 @@ export const aboutData = {
   solving architecturally challenging and intricate software problems`,
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/uc?export=download&amp;id=1xIib4odCxvvHUezKNzL3Rx6JTt6BMmYe', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1WuBcuwxK_ATO4SDX3XHj8XADoyTCyVRx/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'bolsterImage.png',
+    title: 'Bolster Networks, Inc.',
+    info: 'A Python Vue Market Place App that connects Executives with Portfolio Companies',
+    info2: '',
+    url: 'https://bolster.com/',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'super.PNG',
@@ -34,8 +43,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'cyna.PNG',
     title: 'Cynactics',
-    info:
-      'This is a laravel Nuxtjs app that allows users get Predictions of Sport Games. Cynatics is an Online Sport Betting prediction site which use Artificial learning to predict Game outcomes based on team history',
+    info: 'This is a laravel Nuxtjs app that allows users get Predictions of Sport Games. Cynatics is an Online Sport Betting prediction site which use Artificial learning to predict Game outcomes based on team history',
     info2: 'I used nuxtjs for the frontend and Laravel for the Backend',
     url: 'https://www.gamelab.tk',
     repo: 'https://github.com/teebarg/cynatics_vue', // if no repo, the button will not show up
@@ -62,8 +70,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'healthplus.jpg',
     title: 'HealthPlus',
-    info:
-      'An Angular developed app which allows Customer by drugs online from the number 1 pharmaceutical company in Nigeria',
+    info: 'An Angular developed app which allows Customer by drugs online from the number 1 pharmaceutical company in Nigeria',
     info2: '',
     url: 'https://healthplus.com.ng/',
     repo: '',
@@ -72,8 +79,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'scrapper.PNG',
     title: 'JScrapper',
-    info:
-      'JScrapper is an app that allows you to scrape Jumia Website and get the best deal on products',
+    info: 'JScrapper is an app that allows you to scrape Jumia Website and get the best deal on products',
     info2: 'Vue js was used for frontend and Node(Express) for backend',
     url: 'https://jscrapper.tk/',
     repo: 'https://github.com/teebarg/JScrapperF',
@@ -198,6 +204,15 @@ export const skillsData = [
     Staying abreast of developments in web applications and programming languages.
     Ensure software is up-to-date with latest technologies.
      Ensure software is up-to-date with latest technologies`,
+  },
+  {
+    id: nanoid(),
+    img: 'bolster.png',
+    time: '2021 - To Date | Bolster Inc',
+    title: 'bolster networks, inc.',
+    role: 'Senior Software Engineer',
+    desc: `Designing and developing APIs(Python),
+     Create beautiful pixel perfect UI(Vuejs)`,
   },
 ];
 
