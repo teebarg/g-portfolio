@@ -16,7 +16,7 @@ export const aboutData = {
   solving architecturally challenging and intricate software problems`,
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1WuBcuwxK_ATO4SDX3XHj8XADoyTCyVRx/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/u/0/uc?id=1WuBcuwxK_ATO4SDX3XHj8XADoyTCyVRx&export=download', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
