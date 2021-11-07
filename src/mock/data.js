@@ -39,22 +39,22 @@ export const projectsData = [
     url: 'https://www.supermart.ng/',
     repo: '', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'cyna.PNG',
-    title: 'Cynactics',
-    info: 'This is a laravel Nuxtjs app that allows users get Predictions of Sport Games. Cynatics is an Online Sport Betting prediction site which use Artificial learning to predict Game outcomes based on team history',
-    info2: 'I used nuxtjs for the frontend and Laravel for the Backend',
-    url: 'https://www.gamelab.tk',
-    repo: 'https://github.com/teebarg/cynatics_vue', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'cyna.PNG',
+  //   title: 'Cynactics',
+  //   info: 'This is a laravel Nuxtjs app that allows users get Predictions of Sport Games. Cynatics is an Online Sport Betting prediction site which use Artificial learning to predict Game outcomes based on team history',
+  //   info2: 'I used nuxtjs for the frontend and Laravel for the Backend',
+  //   url: 'https://www.gamelab.tk',
+  //   repo: 'https://github.com/teebarg/cynatics_vue', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
     img: 'blog.PNG',
     title: 'Adeniyi Blog',
     info: 'This is my personal Blogging site where i write tutorials to help Developers',
     info2: 'I used Gatsby for the frontend and Wordpress for the Backend',
-    url: 'https://adeniyi-blog.tk/',
+    url: 'https://blog.adeniyi.in/',
     repo: 'https://github.com/teebarg/adeniyi-blog', // if no repo, the button will not show up
   },
   {
@@ -63,25 +63,26 @@ export const projectsData = [
     title: '1 Access',
     info: 'This is my personal Access Management App',
     info2: 'I used React for the frontend and Netlify Lambda Function for the Backend',
-    url: 'https://1access.tk/',
+    url: 'https://password.adeniyi.in',
     repo: 'https://github.com/teebarg/access-manager', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'healthplus.jpg',
-    title: 'HealthPlus',
-    info: 'An Angular developed app which allows Customer by drugs online from the number 1 pharmaceutical company in Nigeria',
-    info2: '',
-    url: 'https://healthplus.com.ng/',
-    repo: '',
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'healthplus.jpg',
+  //   title: 'HealthPlus',
+  //   info: 'An Angular developed app which allows Customer by drugs online from the number 1 pharmaceutical company in Nigeria',
+  //   info2: '',
+  //   url: 'https://healthplus.com.ng/',
+  //   repo: '',
+  // },
   {
     id: nanoid(),
     img: 'scrapper.PNG',
     title: 'JScrapper',
-    info: 'JScrapper is an app that allows you to scrape Jumia Website and get the best deal on products',
+    info:
+      'JScrapper is an app that allows you to scrape Jumia Website and get the best deal on products',
     info2: 'Vue js was used for frontend and Node(Express) for backend',
-    url: 'https://jscrapper.tk/',
+    url: 'https://jscrapper.adeniyi.in/',
     repo: 'https://github.com/teebarg/JScrapperF',
   },
   {
@@ -154,13 +155,13 @@ export const stackData = [
   },
   {
     id: nanoid(),
-    name: 'heroku',
-    img: 'heroku.png',
+    name: 'Docker',
+    img: 'docker.png',
   },
   {
     id: nanoid(),
-    name: 'Docker',
-    img: 'docker.png',
+    name: 'Python',
+    img: 'python.jpeg',
   },
 ];
 
