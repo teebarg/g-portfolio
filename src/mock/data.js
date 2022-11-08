@@ -50,12 +50,12 @@ export const projectsData = [
   // },
   {
     id: nanoid(),
-    img: 'blog.PNG',
-    title: 'Adeniyi Blog',
+    img: 'blog.png',
+    title: 'Insights',
     info: 'This is my personal Blogging site where i write tutorials to help Developers',
-    info2: 'I used Gatsby for the frontend and Wordpress for the Backend',
+    info2: 'The blog is written with Nextjs and Markdowns',
     url: 'https://blog.adeniyi.in/',
-    repo: 'https://github.com/teebarg/adeniyi-blog', // if no repo, the button will not show up
+    repo: 'https://github.com/teebarg/my-blog', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -64,17 +64,9 @@ export const projectsData = [
     info: 'This is my personal Access Management App',
     info2: 'I used React for the frontend and Netlify Lambda Function for the Backend',
     url: 'https://password.adeniyi.in',
-    repo: 'https://github.com/teebarg/access-manager', // if no repo, the button will not show up
+    repo: 'https://github.com/teebarg/access-manager',
+    beta: true,
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'healthplus.jpg',
-  //   title: 'HealthPlus',
-  //   info: 'An Angular developed app which allows Customer by drugs online from the number 1 pharmaceutical company in Nigeria',
-  //   info2: '',
-  //   url: 'https://healthplus.com.ng/',
-  //   repo: '',
-  // },
   {
     id: nanoid(),
     img: 'scrapper.PNG',
@@ -84,6 +76,16 @@ export const projectsData = [
     info2: 'Vue js was used for frontend and Node(Express) for backend',
     url: 'https://jscrapper.adeniyi.in/',
     repo: 'https://github.com/teebarg/JScrapperF',
+  },
+  {
+    id: nanoid(),
+    img: 'sql-archive.png',
+    title: 'SQL archive tool',
+    info: 'An sql archiving tool used to archive mysql databases',
+    info2: '',
+    url: 'https://www.npmjs.com/package/sql-archive',
+    repo: 'https://github.com/teebarg/sql-archive',
+    beta: true,
   },
   {
     id: nanoid(),
@@ -201,7 +203,7 @@ export const skillsData = [
     time: '2020 - To Date | Altara Credit',
     title: 'altara',
     role: 'Senior Software Engineer',
-    desc: `Designing and developing APIs, 
+    desc: `Designing and developing APIs,
     Staying abreast of developments in web applications and programming languages.
     Ensure software is up-to-date with latest technologies.
      Ensure software is up-to-date with latest technologies`,
