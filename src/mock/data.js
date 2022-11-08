@@ -50,9 +50,10 @@ export const projectsData = [
   // },
   {
     id: nanoid(),
-    img: 'blog.png',
+    img: 'my-blog.png',
     title: 'Insights',
-    info: 'This is my personal Blogging site where i write tutorials to help Developers',
+    info:
+      'This is my personal Blogging site where i write tutorials to help Developers but great softwares',
     info2: 'The blog is written with Nextjs and Markdowns',
     url: 'https://blog.adeniyi.in/',
     repo: 'https://github.com/teebarg/my-blog', // if no repo, the button will not show up
