@@ -66,7 +66,7 @@ const About = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
-                    href="https://blog.adeniyi.in/"
+                    href="https://blog.niyi.com.ng/"
                   >
                     Learn with Insights
                   </a>

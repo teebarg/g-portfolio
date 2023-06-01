@@ -55,7 +55,7 @@ export const projectsData = [
     info:
       'This is my personal Blogging site where i write tutorials to help Developers but great softwares',
     info2: 'The blog is written with Nextjs and Markdowns',
-    url: 'https://blog.adeniyi.in/',
+    url: 'https://blog.niyi.com.ng/',
     repo: 'https://github.com/teebarg/my-blog', // if no repo, the button will not show up
   },
   {
@@ -64,7 +64,7 @@ export const projectsData = [
     title: '1 Access',
     info: 'This is my personal Access Management App',
     info2: 'I used React for the frontend and Netlify Lambda Function for the Backend',
-    url: 'https://password.adeniyi.in',
+    url: 'https://password.niyi.com.ng',
     repo: 'https://github.com/teebarg/access-manager',
     beta: true,
   },
@@ -75,7 +75,7 @@ export const projectsData = [
     info:
       'JScrapper is an app that allows you to scrape Jumia Website and get the best deal on products',
     info2: 'Vue js was used for frontend and Node(Express) for backend',
-    url: 'https://jscrapper.adeniyi.in/',
+    url: 'https://jscrapper.niyi.com.ng/',
     repo: 'https://github.com/teebarg/JScrapperF',
   },
   {
