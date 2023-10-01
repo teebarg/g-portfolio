@@ -175,7 +175,7 @@ export const skillsData = [
     time: '2015 - 2017 | Kwara State University',
     title: 'School',
     role: 'Bachelor of Science',
-    desc: `I graduated with a master of science in computer science. Lots of this knowledge can be applied for more complex problems in client-server architectures.`,
+    desc: `I graduated with a bachelor of science in computer science. Lots of this knowledge can be applied for more complex problems in client-server architectures.`,
   },
   {
     id: nanoid(),
