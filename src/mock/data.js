@@ -10,13 +10,17 @@ export const headData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'niyi.jpg',
-  paragraphOne: `I am an enthusiastic self starting and highly capable
-  Senior Software Developer who has 4+ years experience developing Web Applications with PHP,
-  Javascript, HTML, CSS and other web technologies, and building desktop apps with Java. I love
-  solving architecturally challenging and intricate software problems`,
-  paragraphTwo: '',
+  paragraphOne: `
+    Experienced Software Engineer with 5+ years of experience in
+    developing high-quality software solutions. Highly skilled in
+    Javascipt, Vuejs, and Python.`,
+  paragraphTwo: `
+    As a seasoned Software Engineer, I bring a dynamic blend of
+    expertise and innovation to every project. With years of
+    experience in crafting robust and scalable applications, my track
+    record speaks for itself.`,
   paragraphThree: '',
-  resume: 'https://drive.google.com/u/0/uc?id=1WuBcuwxK_ATO4SDX3XHj8XADoyTCyVRx&export=download', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/u/0/uc?id=1i7lNSzaMQxqid6KhZ-FbaexkELjPEQmX&export=download', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -88,15 +92,15 @@ export const projectsData = [
     repo: 'https://github.com/teebarg/sql-archive',
     beta: true,
   },
-  {
-    id: nanoid(),
-    img: 'naivas-site.jpg',
-    title: 'Naivas',
-    info: 'An Angular developed app which allows Customer shop online in Kenya',
-    info2: '',
-    url: 'https://naivas.co.ke',
-    repo: '', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'naivas-site.jpg',
+  //   title: 'Naivas',
+  //   info: 'An Angular developed app which allows Customer shop online in Kenya',
+  //   info2: '',
+  //   url: 'https://naivas.co.ke',
+  //   repo: '', // if no repo, the button will not show up
+  // },
 ];
 
 // STACK DATA
@@ -115,11 +119,6 @@ export const stackData = [
     id: nanoid(),
     name: 'Angular',
     img: 'angular.png',
-  },
-  {
-    id: nanoid(),
-    name: 'Gatsby',
-    img: 'gatsby.png',
   },
   {
     id: nanoid(),
@@ -148,11 +147,6 @@ export const stackData = [
   },
   {
     id: nanoid(),
-    name: 'sass',
-    img: 'sass.png',
-  },
-  {
-    id: nanoid(),
     name: 'typescript',
     img: 'typescript.png',
   },
@@ -166,6 +160,11 @@ export const stackData = [
     name: 'Python',
     img: 'python.jpeg',
   },
+  {
+    id: nanoid(),
+    name: 'Nextjs',
+    img: 'nextjs.jpeg',
+  },
 ];
 
 // SKILLS DATA
@@ -176,9 +175,7 @@ export const skillsData = [
     time: '2015 - 2017 | Kwara State University',
     title: 'School',
     role: 'Bachelor of Science',
-    desc: `I graduated with a master of science in computer science.
-     Lots of this knowledge can be applied for more complex problems
-     in client-server architectures.`,
+    desc: `I graduated with a master of science in computer science. Lots of this knowledge can be applied for more complex problems in client-server architectures.`,
   },
   {
     id: nanoid(),
@@ -201,22 +198,20 @@ export const skillsData = [
   {
     id: nanoid(),
     img: 'office3.jpg',
-    time: '2020 - To Date | Altara Credit',
+    time: '2020 - To Date | Altara Credit Limited',
     title: 'altara',
     role: 'Senior Software Engineer',
     desc: `Designing and developing APIs,
-    Staying abreast of developments in web applications and programming languages.
-    Ensure software is up-to-date with latest technologies.
-     Ensure software is up-to-date with latest technologies`,
+      Staying abreast of developments in web applications and programming languages.
+      Ensure software is up-to-date with latest technologies. Ensure software is up-to-date with latest technologies`,
   },
   {
     id: nanoid(),
     img: 'bolster.png',
-    time: '2021 - To Date | Bolster Inc',
+    time: '2021 - To Date | Bolsters Network Inc',
     title: 'bolster networks, inc.',
     role: 'Senior Software Engineer',
-    desc: `Designing and developing APIs(Python),
-     Create beautiful pixel perfect UI(Vuejs)`,
+    desc: `Designing and developing APIs(Python),Create beautiful pixel perfect UI(Vuejs)`,
   },
 ];
 
