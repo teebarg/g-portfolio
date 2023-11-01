@@ -10,10 +10,17 @@ export const headData = {
 // ABOUT DATA
 export const aboutData = {
     img: "niyi.jpg",
-    paragraphOne: `I am a seasoned software engineer with over six years of experience in the field of software development. My expertise lies in a diverse technology stack including JavaScript, Vue.js, React.js, Python, FastAPI, DynamoDB, SQL, and more. I have a proven track record of successfully delivering projects in various domains, including e-commerce and executive marketplaces. My passion for creating efficient and scalable solutions drives me to stay at the forefront of technology trends and continuously improve my skills.`,
-    paragraphTwo: "",
+    paragraphOne: `
+    Experienced Software Engineer with 5+ years of experience in
+    developing high-quality software solutions. Highly skilled in
+    Javascipt, Vuejs, and Python.`,
+    paragraphTwo: `
+    As a seasoned Software Engineer, I bring a dynamic blend of
+    expertise and innovation to every project. With years of
+    experience in crafting robust and scalable applications, my track
+    record speaks for itself.`,
     paragraphThree: "",
-    resume: "https://drive.google.com/u/0/uc?id=1WuBcuwxK_ATO4SDX3XHj8XADoyTCyVRx&export=download", // if no resume, the button will not show up
+    resume: "https://drive.google.com/u/0/uc?id=1i7lNSzaMQxqid6KhZ-FbaexkELjPEQmX&export=download", // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -193,7 +200,7 @@ export const skillsData = [
     {
         id: nanoid(),
         img: "office3.jpg",
-        time: "2020 - To Date | Altara Credit",
+        time: "2020 - To Date | Altara Credit Limited",
         title: "altara",
         role: "Senior Software Engineer",
         desc: `Designing and developing APIs,
@@ -204,7 +211,7 @@ export const skillsData = [
     {
         id: nanoid(),
         img: "bolster.png",
-        time: "2021 - To Date | Bolster Inc",
+        time: "2021 - To Date | Bolster Network Inc",
         title: "bolster networks, inc.",
         role: "Senior Software Engineer",
         desc: `Designing and developing APIs(Python),
