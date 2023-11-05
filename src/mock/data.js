@@ -40,7 +40,7 @@ export const projectsData = [
         title: "Next/Fastapi Starter template",
         info: "A Starter template for Nextjs and Fastapi to get you started with your next project",
         info2: "",
-        url: "https://shopit-puce.vercel.app/",
+        url: "https://template.niyi.com.ng",
         repo: "https://github.com/teebarg/shopit", // if no repo, the button will not show up
         beta: true,
     },
