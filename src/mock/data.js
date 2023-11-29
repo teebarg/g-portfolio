@@ -36,7 +36,7 @@ export const projectsData = [
     },
     {
         id: nanoid(),
-        img: "starter.png",
+        img: "starter.jpg",
         title: "Next/Fastapi Starter template",
         info: "A Starter template for Nextjs and Fastapi to get you started with your next project",
         info2: "",
