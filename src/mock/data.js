@@ -36,7 +36,7 @@ export const projectsData = [
     },
     {
         id: nanoid(),
-        img: "starter.jpg",
+        img: "starter.png",
         title: "Next/Fastapi Starter template",
         info: "A Starter template for Nextjs and Fastapi to get you started with your next project",
         info2: "",
@@ -200,7 +200,7 @@ export const skillsData = [
     {
         id: nanoid(),
         img: "office3.jpg",
-        time: "2020 - To Date | Altara Credit Limited",
+        time: "2020 - 2023 | Altara Credit Limited",
         title: "altara",
         role: "Senior Software Engineer",
         desc: `Designing and developing APIs,
