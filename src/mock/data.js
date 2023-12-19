@@ -200,13 +200,12 @@ export const skillsData = [
     {
         id: nanoid(),
         img: "office3.jpg",
-        time: "2020 - To Date | Altara Credit Limited",
+        time: "2020 - 2023 | Altara Credit Limited",
         title: "altara",
         role: "Senior Software Engineer",
         desc: `Designing and developing APIs,
               Staying abreast of developments in web applications and programming languages.
-              Ensure software is up-to-date with latest technologies.
-              Ensure software is up-to-date with latest technologies`,
+              Ensure software is up-to-date with latest technologies.`,
     },
     {
         id: nanoid(),
