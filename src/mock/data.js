@@ -122,8 +122,8 @@ export const stackData = [
     },
     {
         id: nanoid(),
-        name: "Gatsby",
-        img: "gatsby.png",
+        name: "NextJs",
+        img: "next.png",
     },
     {
         id: nanoid(),
@@ -139,11 +139,6 @@ export const stackData = [
         id: nanoid(),
         name: "Node",
         img: "node.jpg",
-    },
-    {
-        id: nanoid(),
-        name: "PHP",
-        img: "php.png",
     },
     {
         id: nanoid(),
@@ -164,6 +159,16 @@ export const stackData = [
         id: nanoid(),
         name: "Python",
         img: "python.jpeg",
+    },
+    {
+        id: nanoid(),
+        name: "FastApi",
+        img: "fast.png",
+    },
+    {
+        id: nanoid(),
+        name: "Argo",
+        img: "argo.png",
     },
 ];
 
