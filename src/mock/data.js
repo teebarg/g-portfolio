@@ -13,7 +13,7 @@ export const aboutData = {
     paragraphOne: `
     Experienced Software Engineer with 5+ years of experience in
     developing high-quality software solutions. Highly skilled in
-    Javascipt, Vuejs, and Python.`,
+    React(Nextjs), Vuejs, Python(Fastapi) and PHP(Laravel).`,
     paragraphTwo: `
     As a seasoned Software Engineer, I bring a dynamic blend of
     expertise and innovation to every project. With years of
@@ -33,6 +33,17 @@ export const projectsData = [
         info2: "",
         url: "https://bolster.com/",
         repo: "", // if no repo, the button will not show up
+    },
+    {
+        id: nanoid(),
+        img: "rft.png",
+        title: "React PWA Template",
+        info:
+            "The React PWA Template is a starter project designed to help developers quickly set up a Progressive Web Application (PWA) using React.",
+        info2: "",
+        url: "https://react-pwa.niyi.com.ng/",
+        repo: "https://github.com/teebarg/react-fast-template", // if no repo, the button will not show up
+        beta: true,
     },
     {
         id: nanoid(),
@@ -122,8 +133,8 @@ export const stackData = [
     },
     {
         id: nanoid(),
-        name: "Gatsby",
-        img: "gatsby.png",
+        name: "NextJs",
+        img: "next.png",
     },
     {
         id: nanoid(),
@@ -139,11 +150,6 @@ export const stackData = [
         id: nanoid(),
         name: "Node",
         img: "node.jpg",
-    },
-    {
-        id: nanoid(),
-        name: "PHP",
-        img: "php.png",
     },
     {
         id: nanoid(),
@@ -164,6 +170,16 @@ export const stackData = [
         id: nanoid(),
         name: "Python",
         img: "python.jpeg",
+    },
+    {
+        id: nanoid(),
+        name: "FastApi",
+        img: "fast.png",
+    },
+    {
+        id: nanoid(),
+        name: "Argo",
+        img: "argo.png",
     },
 ];
 
@@ -222,23 +238,25 @@ export const skillsData = [
 export const testimoniesData = [
     {
         id: nanoid(),
+        name: "Chad Shisanto",
+        img: "chad.jpeg",
+        role: "Engineering Manager, Bolster",
+        comment: `"Niyi has consistently demonstrated exceptional technical proficiency
+        and a strong commitment to quality in his role as a software engineer. His ability to tackle
+        complex problems with innovative solutions has significantly contributed to the success of our projects.
+        John collaborates effectively with team members, communicates clearly, and shows a remarkable
+        dedication to meeting deadlines without compromising code quality. His proactive approach to learning and continuous improvement
+        makes him an invaluable asset to our engineering team."`,
+    },
+    {
+        id: nanoid(),
         name: "Dayo Aderemi",
-        img: "sass.png",
-        role: "Senior Engineer, Access Systems",
+        img: "femi.jpg",
+        role: "Senior Manager, Access Systems",
         comment: `"Adeniyi takes his work very seriously and regularly enrolled in classes to
     stay abreast of the newest developments in programming. He also traveled to conferences across
     the country for this purpose. His ongoing professional development courses and trips helped him
     to easily learn new techniques and perform complex tasks the first time around."`,
-    },
-    {
-        id: nanoid(),
-        name: "Femi Akinola",
-        img: "femi.jpg",
-        role: "CEO/Founder, Flicks Technologies",
-        comment: `"As Founder and developer at Flicks, I had to often work with
-    Adeniyi on Software Design for some of the platforms we developed. In particular, we worked
-    together on Education Managament System and his contributions were
-    always insightful and provided a unique perspective."`,
     },
     {
         id: nanoid(),
