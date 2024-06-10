@@ -38,7 +38,8 @@ export const projectsData = [
         id: nanoid(),
         img: "rft.png",
         title: "React PWA Template",
-        info: "The React PWA Template is a starter project designed to help developers quickly set up a Progressive Web Application (PWA) using React.",
+        info:
+            "The React PWA Template is a starter project designed to help developers quickly set up a Progressive Web Application (PWA) using React.",
         info2: "",
         url: "https://react-pwa.niyi.com.ng/",
         repo: "https://github.com/teebarg/react-fast-template", // if no repo, the button will not show up
@@ -242,15 +243,15 @@ export const testimoniesData = [
         role: "Engineering Manager, Bolster",
         comment: `"Niyi has consistently demonstrated exceptional technical proficiency
         and a strong commitment to quality in his role as a software engineer. His ability to tackle
-        complex problems with innovative solutions has significantly contributed to the success of our projects. 
-        John collaborates effectively with team members, communicates clearly, and shows a remarkable 
-        dedication to meeting deadlines without compromising code quality. His proactive approach to learning and continuous improvement 
+        complex problems with innovative solutions has significantly contributed to the success of our projects.
+        John collaborates effectively with team members, communicates clearly, and shows a remarkable
+        dedication to meeting deadlines without compromising code quality. His proactive approach to learning and continuous improvement
         makes him an invaluable asset to our engineering team."`,
     },
     {
         id: nanoid(),
         name: "Dayo Aderemi",
-        img: "sass.png",
+        img: "femi.jpg",
         role: "Senior Manager, Access Systems",
         comment: `"Adeniyi takes his work very seriously and regularly enrolled in classes to
     stay abreast of the newest developments in programming. He also traveled to conferences across
