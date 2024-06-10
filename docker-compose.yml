@@ -1,0 +1,15 @@
+services:
+  portfolio:
+    ports:
+      - "9000:9000"
+    build:
+      context: ./
+    command: npm run start
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    env_file:
+      - .env
+
