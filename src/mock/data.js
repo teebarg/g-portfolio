@@ -36,6 +36,16 @@ export const projectsData = [
     },
     {
         id: nanoid(),
+        img: "commerce.jpg",
+        title: "Kiddies Store",
+        info:
+            "Ecommerce store template built with Next.js App Router, Fastapi and TailwindCSS, with features like Algolia search and Stripe checkout.",
+        info2: "",
+        url: "https://commerce.niyi.com.ng",
+        repo: "https://github.com/teebarg/botcommerce",
+    },
+    {
+        id: nanoid(),
         img: "rft.png",
         title: "React PWA Template",
         info:
@@ -226,10 +236,10 @@ export const skillsData = [
     {
         id: nanoid(),
         img: "bolster.png",
-        time: "2021 - To Date | Bolster Network Inc",
+        time: "2021 - 2024 | Bolster Network Inc",
         title: "bolster networks, inc.",
         role: "Senior Software Engineer",
-        desc: `Designing and developing APIs(Python),
+        desc: `Designing build an AI-powered executive search platform using Vue.js, Python (Flask, FastAPI), DynamoDB, and Elasticsearch,
               Create beautiful pixel perfect UI(Vuejs)`,
     },
 ];
