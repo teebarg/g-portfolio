@@ -11,16 +11,16 @@ export const headData = {
 export const aboutData = {
     img: "niyi.jpg",
     paragraphOne: `
-    Experienced Software Engineer with 5+ years of experience in
-    developing high-quality software solutions. Highly skilled in
-    React(Nextjs), Vuejs, Python(Fastapi) and PHP(Laravel).`,
+    Full Stack Software Engineer with a proven track record in developing high-performance web applications, particularly within the e-commerce, AI,
+    Marketplace and data visualization domains. Proficient in building scalable solutions across the tech stack, from backend services (FastAPI, Flask,
+    Python, Node.js, PostgreSQL, Supabase) to modern frontend frameworks (Next.js, React, VueJS). Adept at implementing efficient systems for real-time
+    data processing and asynchronous notifications, leveraging tools such as RabbitMQ and Kafka.`,
     paragraphTwo: `
-    As a seasoned Software Engineer, I bring a dynamic blend of
-    expertise and innovation to every project. With years of
-    experience in crafting robust and scalable applications, my track
-    record speaks for itself.`,
+    Experienced in deploying complex applications on cloud platforms, including AWS and Google Cloud Platform, with Docker-based setups and a focus
+    on performance optimization. Skilled in database management and migration (Dynamo, PostgreSQL, etc) and integrating advanced search capabilities
+    using Meilisearch and Elasticsearch.`,
     paragraphThree: "",
-    resume: "https://drive.google.com/u/0/uc?id=1i7lNSzaMQxqid6KhZ-FbaexkELjPEQmX&export=download", // if no resume, the button will not show up
+    resume: "https://drive.google.com/file/d/1e-EGRTkMDXGtoL1Q84wYH7h9oYx6Ou2N/view?usp=sharing", // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
