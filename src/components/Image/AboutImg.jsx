@@ -10,27 +10,26 @@ const AboutImg = ({ filename, alt }) => {
                 nodes {
                     base
                     childImageSharp {
-                        gatsbyImageData(
-                            layout: CONSTRAINED
-                            width: 300
-                            placeholder: DOMINANT_COLOR
-                            breakpoints: [150, 200, 300, 400]
-                            formats: [AUTO, WEBP, AVIF]
-                        )
+                        gatsbyImageData(layout: CONSTRAINED, width: 300, placeholder: DOMINANT_COLOR, formats: [AUTO, WEBP, AVIF])
                     }
                 }
             }
         }
     `);
 
-    const imageNode = data.images.nodes.find((img) => img.base.toLowerCase() === filename.toLowerCase());
+    if (!filename) {
+        console.warn("⚠️ AboutImg: filename prop is missing");
+        return null;
+    }
 
-    if (!imageNode || !imageNode.childImageSharp) {
+    const imageNode = data.images.nodes.find((img) => img.base?.toLowerCase() === filename.toLowerCase());
+
+    if (!imageNode?.childImageSharp) {
         console.warn(`⚠️ AboutImg: Image not found → ${filename}`);
         return null;
     }
 
-    const image = getImage(imageNode);
+    const image = getImage(imageNode.childImageSharp);
 
     return <GatsbyImage className="abt-img shadow-lg" alt={alt || filename} image={image} />;
 };
