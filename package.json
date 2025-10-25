@@ -58,7 +58,7 @@
     "url": "https://github.com/teebarg/g-portfolio"
   },
   "engines": {
-    "node": ">=12.18.0 <18.0.0"
+    "node": "18.x"
   },
   "husky": {
     "hooks": {
