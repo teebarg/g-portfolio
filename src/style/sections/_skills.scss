@@ -1,89 +1,82 @@
+@use "../abstracts/mixins" as mixins;
+
 #skills {
-  .skill {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-  }
-
-  .skill::before {
-    left: calc(50% - 1px);
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background-color: #e4e4e4;
-  }
-  .skill-item {
-    max-width: 400px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    align-self: center;
-    margin: 0;
-    @include respond(tab-land) {
-      margin-right: 0 !important;
-      margin-left: 0 !important;
+    .skill {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
     }
-  }
 
-  .skill-item:nth-child(odd) {
-    margin-right: 500px;
-  }
-
-  .skill-item:nth-child(even) {
-    margin-left: 500px;
-  }
-
-  .skill-item .img-container {
-    position: absolute;
-    left: 50%;
-    width: 120px;
-    height: 120px;
-    margin-left: -60px;
-  }
-
-  .skill-item .img-container .gatsby-image-wrapper {
-    height: 100%;
-  }
-
-  .skill-item .img-container:not(.last) {
-    border-radius: 50%;
-    overflow: hidden;
-  }
-
-  // .img-container {
-  //   width: 150px;
-  //   align-self: center;
-  //   height: 150px;
-  //   border-radius: 50%;
-  //   overflow: hidden;
-  //   margin-bottom: 20px;
-  // }
-
-  .skill-item .content-container {
-    min-height: 250px;
-    padding: 0 20px;
-    @include respond(tab-land) {
-      min-height: 0;
-      text-align: center !important;
-      margin-top: 150px;
-      margin-bottom: 50px;
-      z-index: 5;
-      background-color: #fff;
+    .skill::before {
+        left: calc(50% - 1px);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background-color: #e4e4e4;
     }
-    h4 {
-      margin: 10px 0 20px 0;
-      font-weight: 600;
+    .skill-item {
+        max-width: 400px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: center;
+        margin: 0;
+        @include mixins.respond(tab-land) {
+            margin-right: 0 !important;
+            margin-left: 0 !important;
+        }
     }
-  }
 
-  .skill-item:nth-child(odd) .content-container {
-    text-align: right;
-  }
+    .skill-item:nth-child(odd) {
+        margin-right: 500px;
+    }
 
-  .skill-item:nth-child(even) .content-container {
-    text-align: left;
-  }
+    .skill-item:nth-child(even) {
+        margin-left: 500px;
+    }
+
+    .skill-item .img-container {
+        position: absolute;
+        left: 50%;
+        width: 120px;
+        height: 120px;
+        margin-left: -60px;
+    }
+
+    .skill-item .img-container .gatsby-image-wrapper {
+        height: 100%;
+    }
+
+    .skill-item .img-container:not(.last) {
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .skill-item .content-container {
+        min-height: 250px;
+        padding: 0 20px;
+        @include mixins.respond(tab-land) {
+            min-height: 0;
+            text-align: center !important;
+            margin-top: 150px;
+            margin-bottom: 50px;
+            z-index: 5;
+            background-color: #fff;
+        }
+        h4 {
+            margin: 10px 0 20px 0;
+            font-weight: 600;
+        }
+    }
+
+    .skill-item:nth-child(odd) .content-container {
+        text-align: right;
+    }
+
+    .skill-item:nth-child(even) .content-container {
+        text-align: left;
+    }
 }

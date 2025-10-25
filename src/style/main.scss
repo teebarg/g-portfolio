@@ -1,21 +1,21 @@
-@import './abstracts/mixins';
-@import './abstracts/variables';
-@import './abstracts/helpers';
+@use "./abstracts/variables" as vars;
+@use "./abstracts/mixins" as mixins;
+@use "./abstracts/helpers" as helpers;
 
-@import './base/base';
-@import './base/typography';
+@use './base/base';
+@use './base/typography';
 
-@import './components/buttons';
+@use './components/buttons';
 
-@import './layout/footer';
-@import './layout/sections';
+@use './layout/footer';
+@use './layout/sections';
 
-@import './sections/about';
-@import './sections/contact';
-@import './sections/hero';
-@import './sections/projects';
-@import './sections/skills';
-@import './sections/stacks';
-@import './sections/testimony';
+@use './sections/about';
+@use './sections/contact';
+@use './sections/hero';
+@use './sections/projects';
+@use './sections/skills';
+@use './sections/stacks';
+@use './sections/testimony';
 
 @import './vendor/css/font-awesome.min.css';
