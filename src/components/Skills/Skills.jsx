@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react';
-import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
@@ -28,7 +27,7 @@ const Skills = () => {
           <Title title="MY PROFESSIONAL STORY" />
           <Row>
             <Col sm={12}>
-              <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
+              <>
                 <div className="project-wrapper__image">
                   <ul aria-label="Project Link" className="skill">
                     {skills.map((skill) => {
@@ -55,7 +54,7 @@ const Skills = () => {
                     </li>
                   </ul>
                 </div>
-              </Fade>
+              </>
             </Col>
           </Row>
         </div>
