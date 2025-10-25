@@ -11,16 +11,23 @@ export const headData = {
 export const aboutData = {
     img: "niyi.jpg",
     paragraphOne: `
-    Full Stack Software Engineer with a proven track record in developing high-performance web applications, particularly within the e-commerce, AI,
-    Marketplace and data visualization domains. Proficient in building scalable solutions across the tech stack, from backend services (FastAPI, Flask,
-    Python, Node.js, PostgreSQL, Supabase) to modern frontend frameworks (Next.js, React, VueJS). Adept at implementing efficient systems for real-time
-    data processing and asynchronous notifications, leveraging tools such as RabbitMQ and Kafka.`,
+    Full Stack Software Engineer with a proven track record in building high-performance, scalable web applications 
+    across e-commerce, AI, marketplace, and data visualization domains. Skilled in both backend and frontend 
+    development — from Python (FastAPI, Flask) and Node.js microservices to Next.js, React, 
+    and Vue.js interfaces designed for speed and accessibility.`,
     paragraphTwo: `
-    Experienced in deploying complex applications on cloud platforms, including AWS and Google Cloud Platform, with Docker-based setups and a focus
-    on performance optimization. Skilled in database management and migration (Dynamo, PostgreSQL, etc) and integrating advanced search capabilities
-    using Meilisearch and Elasticsearch.`,
-    paragraphThree: "",
-    resume: "https://drive.google.com/file/d/1e-EGRTkMDXGtoL1Q84wYH7h9oYx6Ou2N/view?usp=sharing", // if no resume, the button will not show up
+    Well-versed in asynchronous architecture and real-time systems, leveraging Redis, message brokers, 
+    and background task processing to deliver seamless user experiences. Strong focus on search, 
+    recommendations, and intelligent automation, using technologies such as Meilisearch, Qdrant / vector databases, 
+    and LLM-powered chat and personalization.`,
+    paragraphThree: `
+    Experienced with secure, production-grade payment integrations including Paystack and Stripe, 
+    and robust database solutions (PostgreSQL, DynamoDB, Supabase). Skilled in building cloud-native infrastructure on AWS, 
+    Render, and Google Cloud, utilizing Docker, CI/CD, telemetry monitoring, edge caching, and performance optimization techniques.
+
+    Passionate about shipping reliable software that scales — from architecture and database design to deployment and analytics.
+    `,
+    resume: "https://drive.google.com/file/d/1e-EGRTkMDXGtoL1Q84wYH7h9oYx6Ou2N/view?usp=sharing",
 };
 
 // PROJECTS DATA
@@ -36,40 +43,30 @@ export const projectsData = [
     },
     {
         id: nanoid(),
-        img: "commerce.jpg",
-        title: "Kiddies Store",
+        img: "commerce.png",
+        title: "Revogue Fashion",
         info:
-            "Ecommerce store template built with Next.js App Router, Fastapi and TailwindCSS, with features like Algolia search and Stripe checkout.",
+            "E-commerce store built with Next.js, FastAPI, PostgreSQL — featuring Meilisearch product search, Redis caching, Vector DB-powered recommendations and chatbot, and Paystack checkout.",
         info2: "",
-        url: "https://commerce.niyi.com.ng",
+        url: "https://www.revoque.com.ng",
         repo: "https://github.com/teebarg/botcommerce",
     },
-    {
-        id: nanoid(),
-        img: "rft.png",
-        title: "React PWA Template",
-        info:
-            "The React PWA Template is a starter project designed to help developers quickly set up a Progressive Web Application (PWA) using React.",
-        info2: "",
-        url: "https://react-pwa.niyi.com.ng/",
-        repo: "https://github.com/teebarg/react-fast-template", // if no repo, the button will not show up
-        beta: true,
-    },
-    {
-        id: nanoid(),
-        img: "starter.jpg",
-        title: "Next/Fastapi Starter template",
-        info: "A Starter template for Nextjs and Fastapi to get you started with your next project",
-        info2: "",
-        url: "https://template.niyi.com.ng",
-        repo: "https://github.com/teebarg/shopit", // if no repo, the button will not show up
-        beta: true,
-    },
+    // {
+    //     id: nanoid(),
+    //     img: "rft.png",
+    //     title: "React PWA Template",
+    //     info:
+    //         "The React PWA Template is a starter project designed to help developers quickly set up a Progressive Web Application (PWA) using React.",
+    //     info2: "",
+    //     url: "https://react-pwa.niyi.com.ng/",
+    //     repo: "https://github.com/teebarg/react-fast-template", // if no repo, the button will not show up
+    //     beta: true,
+    // },
     {
         id: nanoid(),
         img: "super.PNG",
         title: "SupermartNG Website",
-        info: "A Laravel Vue app which allows Customer by Groceries online",
+        info: "A Laravel PHP powered app which allows Customer by Groceries online, with the frontend built with Vue.js",
         info2: "",
         url: "https://www.supermart.ng/",
         repo: "", // if no repo, the button will not show up
@@ -188,8 +185,13 @@ export const stackData = [
     },
     {
         id: nanoid(),
-        name: "Argo",
-        img: "argo.png",
+        name: "Vector DB",
+        img: "vector.jpeg",
+    },
+    {
+        id: nanoid(),
+        name: "Redis",
+        img: "redis.png",
     },
 ];
 
@@ -242,6 +244,14 @@ export const skillsData = [
         desc: `Designing build an AI-powered executive search platform using Vue.js, Python (Flask, FastAPI), DynamoDB, and Elasticsearch,
               Create beautiful pixel perfect UI(Vuejs)`,
     },
+    {
+        id: nanoid(),
+        img: "revoque.png",
+        time: "2024 - Present | Revoque",
+        title: "revoque",
+        role: "Lead Engineer",
+        desc: `Designing and building an AI-powered e-commerce platform using Nextjs, Python, PostgreSQL, Meilisearch, VectorDB and Redis.`,
+    },
 ];
 
 // TESTIMONIES DATA
@@ -280,7 +290,6 @@ export const testimoniesData = [
     },
 ];
 
-// FOOTER DATA
 export const footerData = {
     networks: [
         {
