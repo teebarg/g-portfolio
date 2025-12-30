@@ -2,9 +2,9 @@ import { nanoid } from "nanoid";
 
 // HEAD DATA
 export const headData = {
-    title: "Adeniyi | Software Engineer | Software Developer",
+    title: "Adeniyi Aderounmu | Software Engineer | AI/ML Engineer | Full Stack Developer",
     lang: "en",
-    description: `This a Adeniyi Aderounmu Portfolio, i'm a software developer`,
+    description: `This is Adeniyi Aderounmu's portfolio, a software developer specializing in full-stack web applications, AI/ML, cloud infrastructure, and modern web technologies like React, Next.js, and Vue.js. Building scalable, high-performance applications with a focus on user experience and system reliability for enterprise-grade solutions with a passion for shipping reliable software that scales efficiently across cloud-native and edge environments.`,
 };
 
 // ABOUT DATA
@@ -28,7 +28,7 @@ export const aboutData = {
     Passionate about shipping reliable software that scales — from architecture and database design to deployment and analytics.
     `,
     resume: "https://drive.google.com/file/d/1e-EGRTkMDXGtoL1Q84wYH7h9oYx6Ou2N/view?usp=sharing",
-};
+    };
 
 // PROJECTS DATA
 export const projectsData = [
@@ -39,53 +39,50 @@ export const projectsData = [
         info: "A Python Vue Market Place App that connects Executives with Portfolio Companies",
         info2: "",
         url: "https://bolster.com/",
-        repo: "", // if no repo, the button will not show up
+        repo: "",
     },
     {
         id: nanoid(),
         img: "commerce.png",
         title: "Revogue Fashion",
-        info:
-            "E-commerce store built with Next.js, FastAPI, PostgreSQL — featuring Meilisearch product search, Redis caching, Vector DB-powered recommendations and chatbot, and Paystack checkout.",
+        info: "E-commerce store built with Next.js, FastAPI, PostgreSQL — featuring Meilisearch product search, Redis caching, Vector DB-powered recommendations and chatbot, and Paystack checkout.",
         info2: "",
         url: "https://www.revoque.com.ng",
         repo: "https://github.com/teebarg/botcommerce",
     },
-    // {
-    //     id: nanoid(),
-    //     img: "rft.png",
-    //     title: "React PWA Template",
-    //     info:
-    //         "The React PWA Template is a starter project designed to help developers quickly set up a Progressive Web Application (PWA) using React.",
-    //     info2: "",
-    //     url: "https://react-pwa.niyi.com.ng/",
-    //     repo: "https://github.com/teebarg/react-fast-template", // if no repo, the button will not show up
-    //     beta: true,
-    // },
+    {
+        id: nanoid(),
+        img: "pulse.png",
+        title: "Pulse Metrics",
+        info: "PulseMetrics is a real-time analytics SaaS platform designed for e-commerce stores.",
+        info2: "",
+        url: "https://pulse.revoque.com.ng/",
+        repo: "https://github.com/teebarg/pulse-metrics",
+    },
     {
         id: nanoid(),
         img: "super.PNG",
         title: "SupermartNG Website",
-        info: "A Laravel PHP powered app which allows Customer by Groceries online, with the frontend built with Vue.js",
+        info: "A Laravel PHP-powered e-commerce platform that enables customers to shop for groceries online, with the frontend built using Vue.js",
         info2: "",
         url: "https://www.supermart.ng/",
-        repo: "", // if no repo, the button will not show up
+        repo: "",
     },
     {
         id: nanoid(),
         img: "my-blog.png",
         title: "Insights",
-        info: "This is my personal Blogging site where i write tutorials to help Developers but great softwares",
-        info2: "The blog is written with Nextjs and Markdowns",
+        info: "This is my personal Blogging site where I write tutorials to help developers with great software",
+        info2: "The blog is written with Next.js and Markdown files for easy content management and deployment.",
         url: "https://blog.niyi.com.ng/",
-        repo: "https://github.com/teebarg/my-blog", // if no repo, the button will not show up
+        repo: "https://github.com/teebarg/my-blog",
     },
     {
         id: nanoid(),
         img: "altara.png",
         title: "Altara Marketing Website",
-        info: "A Nextjs app which holds the marketing pages for Altara Credit",
-        info2: "",
+        info: "A Next.js app which holds the marketing pages for Altara Credit",
+        info2: "Built with Next.js and deployed on Vercel for fast performance and global availability.",
         url: "https://www.altaracredit.com",
         repo: "https://github.com/AltaraNg/site-v2",
         beta: true,
@@ -114,10 +111,10 @@ export const projectsData = [
         id: nanoid(),
         img: "naivas-site.jpg",
         title: "Naivas",
-        info: "An Angular developed app which allows Customer shop online in Kenya",
-        info2: "",
+        info: "An Angular/Laravel developed e-commerce app which allows customers to shop online in Kenya",
+        info2: "Built with Angular for the frontend and Laravel for the backend, deployed on AWS. Features include user authentication, product catalog, shopping cart, payment processing with Stripe integration, and responsive design with modern UI/UX principles for an optimal shopping experience.",
         url: "https://naivas.co.ke",
-        repo: "", // if no repo, the button will not show up
+        repo: "",
     },
 ];
 

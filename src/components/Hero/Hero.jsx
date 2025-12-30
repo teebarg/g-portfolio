@@ -10,7 +10,7 @@ const Header = () => {
                     <h1 className="hero-title">
                         <span className="text-color-main">Adeniyi Aderounmu</span>
                         <br />
-                        <span className="text-color-main">I&apos;m a Software Engineer</span>
+                        <span className="text-color-main">I&apos;m a Software Engineer and AI/ML Engineer passionate about building scalable, intelligent systems that solve real-world problems.</span>
                     </h1>
                 </>
                 <>
