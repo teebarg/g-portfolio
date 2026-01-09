@@ -31,20 +31,11 @@ const Header = () => {
 
                <div className="flex items-center gap-2">
                   <ThemeToggle />
-                  <Button
-                     onClick={() =>
-                        window.open(
-                           "https://drive.google.com/file/d/1e-EGRTkMDXGtoL1Q84wYH7h9oYx6Ou2N/view?usp=sharing",
-                           "_blank",
-                           "noopener,noreferrer"
-                        )
-                     }
-                     variant="outline"
-                     size="sm"
-                     className="text-sm"
-                  >
-                     <FileText className="mr-2 h-3.5 w-3.5" />
-                     Resume
+                  <Button variant="outline" size="sm" className="group text-sm" asChild>
+                     <a href={import.meta.env.VITE_PDF_CV} target="_blank" rel="noopener noreferrer">
+                        <FileText className="mr-2 h-3.5 w-3.5" />
+                        Resume
+                     </a>
                   </Button>
                </div>
             </div>

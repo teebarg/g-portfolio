@@ -1,4 +1,4 @@
-import { ArrowRight, FileText, Mail } from "lucide-react";
+import { ArrowRight, ExternalLink, FileText, Mail, Terminal } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import BgCodeDesign from "./BgCodeDesign";
 
@@ -10,8 +10,19 @@ const Hero = () => {
          <div className="relative container max-w-4xl">
             <div className="flex flex-col lg:flex-row lg:items-center lg:gap-16">
                <div className="flex-1 order-2 lg:order-1">
-                  <div className="animate-fade-in">
-                     <p className="text-overline uppercase text-text-secondary mb-4 font-medium">Software Engineer · Product Builder</p>
+                  <div className="flex items-center gap-4 mb-6">
+                     <div className="h-16 w-16 border-2 border-border shadow-lg rounded-full overflow-hidden">
+                        <div className="bg-primary text-primary-foreground h-full w-full flex items-center justify-center">
+                           <Terminal className="h-6 w-6" />
+                        </div>
+                     </div>
+                     <div>
+                        <p className="text-muted-foreground text-sm font-medium tracking-wide uppercase flex items-center gap-2">
+                           <span className="inline-block w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+                           Software Engineer · Product Builder
+                        </p>
+                        <p className="text-foreground font-medium">Available for opportunities</p>
+                     </div>
                   </div>
 
                   <h1 className="mb-6 animate-fade-in">Building scalable systems and production-grade products.</h1>
@@ -22,21 +33,18 @@ const Hero = () => {
                   </p>
 
                   <div className="flex flex-wrap gap-4 pt-4 animate-fade-in-delay-3">
-                     <Button
-                        onClick={() =>
-                           window.open(
-                              "https://drive.google.com/file/d/1e-EGRTkMDXGtoL1Q84wYH7h9oYx6Ou2N/view?usp=sharing",
-                              "_blank",
-                              "noopener,noreferrer"
-                           )
-                        }
-                        variant="default"
-                        size="lg"
-                        className="group"
-                     >
-                        <FileText className="mr-2 h-4 w-4" />
-                        View CV
-                        <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+                     <Button size="lg" className="group" asChild>
+                        <a href={import.meta.env.VITE_PDF_CV} target="_blank" rel="noopener noreferrer">
+                           <FileText className="mr-2 h-4 w-4" />
+                           PDF CV
+                           <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+                        </a>
+                     </Button>
+                     <Button variant="outline" size="lg" className="group font-mono" asChild>
+                        <a href={import.meta.env.VITE_NOTION_CV} target="_blank" rel="noopener noreferrer">
+                           <ExternalLink className="mr-2 h-4 w-4" />
+                           Notion CV
+                        </a>
                      </Button>
                      <Button onClick={() => window.open("mailto:teebarg01@gmail.com", "_blank", "noopener,noreferrer")} variant="outline" size="lg">
                         <Mail className="mr-2 h-4 w-4" />
@@ -49,30 +57,22 @@ const Hero = () => {
                   </p>
                </div>
 
-               {/* Profile image */}
                <div className="order-1 lg:order-2 mb-10 lg:mb-0 animate-fade-in">
                   <div className="relative">
-                     {/* Geometric frame accent */}
                      <div className="absolute -inset-3 border border-divider rounded-sm opacity-60" />
                      <div className="absolute -inset-6 border border-divider/40 rounded-sm hidden md:block" />
 
-                     {/* Corner accents */}
                      <div className="absolute -top-3 -left-3 w-6 h-6 border-t-2 border-l-2 border-foreground/20" />
                      <div className="absolute -bottom-3 -right-3 w-6 h-6 border-b-2 border-r-2 border-foreground/20" />
 
-                     {/* Image container */}
                      <div className="relative w-48 h-56 md:w-56 md:h-64 bg-secondary overflow-hidden">
                         <img
                            src="/niyi.jpg"
                            alt="Profile"
                            className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
                         />
-
-                        {/* Subtle overlay gradient */}
                         <div className="absolute inset-0 bg-linear-to-t from-background/20 to-transparent" />
                      </div>
-
-                     {/* Status indicator */}
                      <div className="absolute -bottom-2 -right-2 bg-background px-3 py-1.5 border border-divider">
                         <div className="flex items-center gap-2">
                            <span className="w-2 h-2 bg-green-500/80 rounded-full animate-pulse" />

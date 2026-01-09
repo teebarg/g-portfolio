@@ -24,7 +24,6 @@ const BlogPost = () => {
 
    return (
       <div className="min-h-screen bg-background">
-         {/* Minimal header for article pages */}
          <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border-subtle">
             <div className="container max-w-3xl">
                <div className="flex items-center justify-between h-16">
@@ -39,7 +38,6 @@ const BlogPost = () => {
 
          <main className="pt-32 pb-20">
             <article className="container max-w-3xl">
-               {/* Article header */}
                <header className="mb-12 space-y-6">
                   <div className="flex items-center gap-3 text-text-tertiary text-sm">
                      <span>{article.date}</span>
@@ -62,11 +60,9 @@ const BlogPost = () => {
                   )}
                </header>
 
-               {/* Article content */}
                <div className="prose prose-neutral dark:prose-invert max-w-none">
                   <div className="space-y-6 text-text-secondary leading-relaxed">
                      {article.content.split("\n\n").map((paragraph, index) => {
-                        // Handle headers
                         if (paragraph.startsWith("## ")) {
                            return (
                               <h2 key={index} className="text-xl font-semibold text-foreground mt-12 mb-4 first:mt-0">

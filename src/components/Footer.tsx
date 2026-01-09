@@ -23,7 +23,7 @@ const Footer = () => {
       <footer className="py-12 md:py-16 border-t border-border-subtle">
          <div className="container max-w-4xl">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
-               <p className="text-text-tertiary text-sm">© {new Date().getFullYear()} · Built with care</p>
+               <p className="text-text-tertiary text-sm">© {new Date().getFullYear()} · Adeniyi Aderounmu</p>
 
                <nav className="flex items-center gap-6">
                   {links.map((link) => (

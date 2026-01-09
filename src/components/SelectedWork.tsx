@@ -103,7 +103,6 @@ const SelectedWork = () => {
                               <h3 className="text-lg font-medium group-hover:text-text-secondary transition-colors">{item.name}</h3>
                               <ArrowUpRight className="h-4 w-4 text-text-tertiary opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
                            </div>
-                           {/* Role & Context */}
                            {(item.role || item.context) && (
                               <p className="text-caption text-text-tertiary mb-2">
                                  {item.role}

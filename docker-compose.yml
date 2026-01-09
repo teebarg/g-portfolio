@@ -1,15 +1,16 @@
 services:
-  portfolio:
-    ports:
-      - "8080:8000"
-      - "9001:9001"
+  app:
+    container_name: portfolio
     build:
-      context: ./
-    command: npm run develop
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5555:5555"
     volumes:
-      - ./:/app
+      - .:/app
       - /app/node_modules
     environment:
       - NODE_ENV=development
     env_file:
       - .env
+    command: pnpm dev --host

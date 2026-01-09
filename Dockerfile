@@ -1,11 +1,15 @@
-FROM node:18-bullseye
+FROM node:20-slim
 
 WORKDIR /app
 
-COPY package*.json ./
+RUN corepack enable && corepack prepare pnpm@latest --activate
 
-RUN npm install
+COPY package.json pnpm-lock.yaml ./
+
+RUN pnpm install --frozen-lockfile
 
 COPY . .
 
-EXPOSE 8000
+EXPOSE 5555
+
+CMD ["pnpm", "dev"]
